@@ -1,0 +1,147 @@
+<html>
+<head>
+<style>
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	
+}
+.topnav {
+    overflow: hidden;
+    background-color: brown;;
+    
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #CCFFCC;
+    color: black;
+}
+.box
+{
+	width:100%;
+	height:798px;
+	/*border:solid 1px black;*/
+	margin:auto;
+	
+}
+.head
+{
+	/*width:1024px;*/
+	width:100%;
+	height:98px;
+	border:solid 1px brown;
+	text-align:center;
+	line-height:100px;
+	background:#CCFFCC;
+
+}
+.button
+{
+width:100px;
+height:50px;
+line-height:50px;
+text-align:center;
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color:brown;
+	background:#F7DC6F;
+	border-radius:5px;
+	
+	
+}
+.button:hover
+{
+background:white;
+}
+.a
+{
+text-decoration:none;
+}
+.tbox
+{
+width:200px;
+height:40px;
+text-align:center;
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+border:solid 1px brown;
+border-radius:2px;
+}
+.lbox
+{
+
+width:500px;
+height:800px;
+border:solid 1px brown;
+margin:auto;
+background:honeydew;
+}
+.space
+{
+width:100%;
+height:40px;
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+img{
+width:50%;
+}
+</style></head>
+<body bgcolor="#E6E6FA" background="poppies.jpg">
+<div class="box">
+
+<div class="head"><h1 style="font-size:36px;font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif;color:brown">NURSERY</h1></div>
+<div class="space"></div>
+<!--  <img src="sunflowerfield.jpg" align="right" >-->
+<div class="lbox">
+<form action="signup" method="post" ><br>
+<center><font   style="font-size:24px;font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; color:brown;">SIGNUP PAGE</font></center><br/><br/>
+<center>
+<br/><input type="text" name="user_id" placeholder="User ID" class="tbox" required/><br><br/>
+<br/><input type="text" name="fname" placeholder="First Name" class="tbox" required/><br><br/>
+<br/><input type="text" name="lname" placeholder="Last Name" class="tbox" required/><br><br/>
+<br/><input type="text" name="email_id" placeholder="Email ID" class="tbox" required/><br><br/>
+<br/><input type="text" name="contact_no" placeholder="Conatact No" class="tbox" required/><br><br/>
+<br/><input type="text" name="address" placeholder="Address" class="tbox" required/><br><br/>
+<br/><input type="text" name="password" placeholder="Password" class="tbox" required/><br><br/>
+<br/></center>
+  <center> <input type="submit" name="submit" value="Submit" class="button"></center><br/>
+</form>
+
+   <center><a href="logout.jsp">
+<input type="submit" value="logout" class="button"></a></center><br>
+ </div>
+ </div>
+</body>
+</html>
